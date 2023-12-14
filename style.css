@@ -1,0 +1,244 @@
+.container {
+  margin-top:1rem;
+}
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: lightgrey;
+
+}
+
+
+.card {
+  margin:1rem;
+}
+#image-header {
+  border-radius: 50%;
+  background-color: lightgrey;
+}
+#contact-left{
+  background-color: #717171;
+  padding:1rem;
+  border-radius: 5px;
+}
+
+#contact-right {
+  background-color: #bbb;
+  padding:1rem;
+  border-radius: 5px;
+}
+
+#contact-header {
+  text-align: center;
+  list-style: none;
+}
+.button-link {
+  color:white;
+}
+.button-link:hover {
+  color:#717171;
+}
+
+
+#projects-header {
+
+  text-align: center;  
+  margin-top:2rem;
+  font-size: 4em;
+  text-shadow: 2px 2px 2px #888;
+}
+p {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.1em;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+  background-color: black;
+}
+#resume-subheader{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.5em;
+}
+#footer {
+    min-height:1rem;
+    background-color: rgb(101,115,126,0.3);
+    border-top: solid black;
+    border-radius: 5px;
+    width:100%;
+}
+#side-menu {
+    position:fixed;
+    width:30%;
+    text-align: center;
+    font-size:2rem;
+}
+#side-menu .nav-link {
+    margin:.6rem;
+}
+.name {
+    color:deepskyblue;
+    font-size:4rem;
+    text-shadow: 2px 2px 2px #888;
+
+}
+.intro {
+    margin:2rem;
+}
+
+.intro-title {
+    color:#a2a2a2;
+    font-size: 3rem;
+}
+ .footer-brand {
+    font-size:3rem;
+    color:deepskyblue;  
+    text-shadow: 2px 2px 2px #888;
+
+
+ }
+
+
+ .slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+  }
+  
+
+  .mySlides {
+    display: none;
+    padding: 3rem;
+    text-align: center;
+  }
+  
+ 
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .nav-pills .nav-link {
+    list-style:none;
+    background-color:f8f9fa;
+    color:white;
+    border-radius: 7px;
+    background-color:black;
+    
+
+  }
+
+ 
+#navbar-resume .nav-pills {
+    margin:0;
+    background-color: rgb(101,115,126,0.3);
+    border-radius:1px;
+}
+ 
+  .nav-pills {
+    list-style: none;
+    margin:1rem;
+  }
+
+  .divider {
+    border-right:2rem solid black;
+    
+
+  }
+
+  .border-left {
+    border:5rem;
+  }
+
+  
+  
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+    .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+#resumeheader-left {
+  background-color: rgb(101,115,126,0.3);
+  font-size:1em;
+  margin:0;
+  text-shadow: 2px 2px 2px #888;
+  text-align: center;
+}
+
+  
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  ul {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.1em;
+  }
+  
+  q {font-style: italic;}
+  
+  .author {color: deepskyblue;} 
+
+  .resume-header {
+    font-size: 2em;
+    text-shadow: 2px 2px 2px #888;
+    color:deepskyblue
+  }
+#resume-section {
+    background-color:rgb(101,115,126,0.3);
+    border-radius:5px;
+    margin-top: 1.5%;
+}
+  .date {
+    float:right;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .nav-pills {
+     
+        justify-content: center;
+     
+    }
+    .nav-pills .nav-item {
+        margin:.5rem;
+        
+    }
+
+  #navbar-resume #side-menu {
+    font-size:10px;
+    margin-top:.5rem;
+    border-radius: 5px;
+    
+  }
+ 
+  
+    
+  }
